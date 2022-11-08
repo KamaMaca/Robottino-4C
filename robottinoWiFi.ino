@@ -1,9 +1,9 @@
-#include <SoftwareSerial.h>
 
-#define rxPin 10
 #define txPin 8
 // Set up a new SoftwareSerial object
-SoftwareSerial mySerial =  SoftwareSerial(rxPin, txPin);
+SoftwareSerial mySerial =  SoftwareSerial(rxPin, txPin); 
+
+//Creiamo un oggetto utilizziamo il metodo costruttore
 
 String check4answer(){
     String str = "";
